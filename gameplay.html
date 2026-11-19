@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>玩法介紹｜GENSHIN IMPACT 原神導覽</title>
+  <meta name="description" content="《原神》玩法介紹：七大元素與元素反應、四人小隊戰鬥、大世界探索、角色養成與多人連線。">
+  <!-- 網頁字型 -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;700&family=Noto+Serif+TC:wght@600;700&display=swap" rel="stylesheet">
+  <!-- 全站共用樣式表 -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ===== 頂部導覽列（三頁共用） ===== -->
+  <header class="navbar">
+    <div class="container">
+      <a href="index.html" class="nav-logo">GENSHIN IMPACT<span>｜</span>原神導覽</a>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="index.html">遊戲概覽</a></li>
+          <li><a href="story.html">故事介紹</a></li>
+          <li><a href="gameplay.html" class="active">玩法介紹</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- ===== 區塊 1：頁面標題區 Page Header ===== -->
+    <!-- 圖片用途：玩法頁頁首背景圖（設定於 style.css 的 .header-gameplay，可替換為 images/gameplay-header.jpg） -->
+    <section class="page-header header-gameplay">
+      <div class="container">
+        <h1>核心玩法與戰鬥系統</h1>
+        <p>《原神》結合自由探索、角色養成與元素策略戰鬥，讓每一次冒險都能依照你的想法組隊、搭配與發揮。</p>
+      </div>
+    </section>
+
+    <!-- ===== 區塊 2：七大元素與元素反應 ===== -->
+    <section class="section">
+      <div class="container">
+        <h2 class="section-title">七大元素與元素反應</h2>
+        <p class="section-desc">提瓦特由七種元素構成，不同元素相互碰撞便會產生強大的「元素反應」，是戰鬥策略的核心。</p>
+
+        <!-- 七大元素標籤列 -->
+        <div class="badge-row">
+          <span class="badge badge-pyro">🔥 火</span>
+          <span class="badge badge-hydro">💧 水</span>
+          <span class="badge badge-anemo">🌪️ 風</span>
+          <span class="badge badge-electro">⚡ 雷</span>
+          <span class="badge badge-dendro">🌿 草</span>
+          <span class="badge badge-cryo">❄️ 冰</span>
+          <span class="badge badge-geo">🪨 岩</span>
+        </div>
+
+        <!-- 常見元素反應一覽表 -->
+        <div class="table-wrap">
+          <table class="reaction-table">
+            <caption>常見元素反應一覽表</caption>
+            <thead>
+              <tr>
+                <th>反應名稱</th>
+                <th>組合元素</th>
+                <th>戰鬥效果說明</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>蒸發</td>
+                <td><span class="el-hydro">水</span> ＋ <span class="el-pyro">火</span></td>
+                <td>觸發高額倍率傷害，是常見的爆發輸出核心反應。</td>
+              </tr>
+              <tr>
+                <td>融化</td>
+                <td><span class="el-cryo">冰</span> ＋ <span class="el-pyro">火</span></td>
+                <td>大幅提升該次攻擊的傷害倍率，適合單次高傷害打擊。</td>
+              </tr>
+              <tr>
+                <td>感電</td>
+                <td><span class="el-hydro">水</span> ＋ <span class="el-electro">雷</span></td>
+                <td>使目標持續受到雷元素傷害，並向周圍潮濕的敵人擴散電流。</td>
+              </tr>
+              <tr>
+                <td>激化</td>
+                <td><span class="el-dendro">草</span> ＋ <span class="el-electro">雷</span></td>
+                <td>使敵人進入原激化狀態，後續受到草或雷元素攻擊時大幅提高傷害。</td>
+              </tr>
+              <tr>
+                <td>綻放</td>
+                <td><span class="el-hydro">水</span> ＋ <span class="el-dendro">草</span></td>
+                <td>在場上生成草原核，延遲後爆炸造成範圍草元素傷害，還能進一步與火或雷產生衍生反應。</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== 區塊 3：四大日常玩法模組 ===== -->
+    <section class="section section-alt">
+      <div class="container">
+        <h2 class="section-title">四大日常玩法模組</h2>
+        <p class="section-desc">戰鬥、探索、養成與社交，構成旅行者在提瓦特的每一天。</p>
+
+        <div class="grid grid-2">
+          <!-- 玩法 1 -->
+          <article class="card feature-card">
+            <div class="card-body">
+              <div class="card-icon">⚔️</div>
+              <h3>四人小隊切換戰鬥</h3>
+              <p>戰鬥中可隨時切換 4 名角色，靈活施放元素戰技與元素爆發，打出流暢的元素連攜。</p>
+            </div>
+          </article>
+
+          <!-- 玩法 2 -->
+          <article class="card feature-card">
+            <div class="card-body">
+              <div class="card-icon">🗺️</div>
+              <h3>大世界探索與解謎</h3>
+              <p>遍布地圖的失散神瞳、隱藏寶箱、挑戰秘境與傳送錨點，讓探索過程充滿驚喜與回饋。</p>
+            </div>
+          </article>
+
+          <!-- 玩法 3 -->
+          <article class="card feature-card">
+            <div class="card-body">
+              <div class="card-icon">🗡️</div>
+              <h3>角色與武器養成</h3>
+              <p>透過角色升級、突破、天賦強化，以及搭配不同詞條的「聖遺物」套裝來打造專屬流派。</p>
+            </div>
+          </article>
+
+          <!-- 玩法 4 -->
+          <article class="card feature-card">
+            <div class="card-body">
+              <div class="card-icon">🤝</div>
+              <h3>多人連線與休閒玩法</h3>
+              <p>支援最多 4 名玩家連線協作挑戰副本，亦內建「塵歌壺」家園建造與「七聖召喚」策略卡牌等休閒模式。</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ===== 頁尾（三頁共用） ===== -->
+  <footer class="footer">
+    <div class="container">
+      <p>網頁設計期中作業｜資料與圖片參考自《原神》官方網站</p>
+    </div>
+  </footer>
+
+</body>
+</html>
